@@ -1,0 +1,129 @@
+{
+  "language": {
+    "selectorLabel": "Interface language",
+    "russian": "Russian",
+    "english": "English"
+  },
+  "auth": {
+    "visualLabel": "Telegram Relay introduction",
+    "brand": "Telegram Relay",
+    "heroTitle": "One calm place for every important reply.",
+    "heroDescription": "Connect your GREEN-API instance and start a focused Telegram conversation without the noise.",
+    "trustTitle": "Private by design",
+    "trustDescription": "Credentials never leave the current session.",
+    "title": "Connect your Telegram account",
+    "description": "Use the access details from your GREEN-API instance. They stay in this browser tab only.",
+    "instanceId": {
+      "label": "Instance ID",
+      "placeholder": "3100000000"
+    },
+    "token": {
+      "label": "API token",
+      "placeholder": "Paste your instance token"
+    },
+    "apiHost": {
+      "label": "API host",
+      "hint": "Use the API host shown in your GREEN-API cabinet."
+    },
+    "connecting": "Connecting",
+    "connect": "Connect instance",
+    "privacy": "Credentials are held in memory and cleared when you close or refresh this tab.",
+    "validation": {
+      "idRequired": "Enter your instance ID.",
+      "idDigits": "The instance ID must contain digits only.",
+      "tokenRequired": "Enter your instance token.",
+      "httpsRequired": "Use an HTTPS API host.",
+      "hostInvalid": "Enter a valid API host."
+    },
+    "states": {
+      "notAuthorized": "not authorized",
+      "blocked": "blocked",
+      "suspended": "temporarily restricted",
+      "starting": "starting",
+      "pendingPassword": "waiting for a two-factor authentication password"
+    },
+    "errors": {
+      "instanceState": "This instance is {{state}}. Authorize it in your GREEN-API cabinet and try again.",
+      "invalidConfig": "Check the API host and try again.",
+      "authorization": "GREEN-API rejected the access details. Check the instance ID and API token.",
+      "network": "Could not reach GREEN-API. Check your internet connection and try again.",
+      "offline": "You are offline. Reconnect and try again.",
+      "timeout": "GREEN-API took too long to respond. Try again.",
+      "rateLimit": "Too many requests were sent to GREEN-API. Wait a moment and try again.",
+      "validation": "GREEN-API rejected the connection parameters. Check the instance details.",
+      "server": "GREEN-API is temporarily unavailable. Try again later.",
+      "invalidResponse": "GREEN-API returned an unexpected response. Try again later.",
+      "unknown": "Could not connect to GREEN-API. Check your access details and try again."
+    }
+  },
+  "messenger": {
+    "brand": "Telegram Relay",
+    "sidebarLabel": "Conversation navigation",
+    "newConversation": "New conversation",
+    "newConversationMobile": "Start a new conversation",
+    "conversationsLabel": "Conversations",
+    "conversationReady": "Conversation ready",
+    "emptyConversations": "Your first conversation will appear here.",
+    "instanceConnected": "Instance connected",
+    "instanceId": "ID {{id}}",
+    "disconnect": "Disconnect instance",
+    "disconnectMobile": "Disconnect instance and return to sign in",
+    "newMessage": "New message",
+    "online": "Live",
+    "offline": "Offline",
+    "today": "Today",
+    "messagesLabel": "Conversation messages",
+    "readyTitle": "Conversation ready",
+    "readyDescription": "Messages are sent through your connected GREEN-API instance.",
+    "offlineNotice": "You are offline. Reconnect to send or receive messages.",
+    "sendingNotice": "Sending message...",
+    "discardDraftConfirm": "Discard the unsent message and start a new conversation?",
+    "composerHint": "Enter to send, Shift + Enter for a new line",
+    "errors": {
+      "send": "Could not send the message. Try again.",
+      "receive": "Could not receive new messages. Retrying automatically.",
+      "offline": "You are offline. Reconnect before trying again.",
+      "timeout": "GREEN-API took too long to respond. Try again.",
+      "authorization": "GREEN-API no longer accepts this session. Reconnect the instance.",
+      "rateLimit": "Too many requests were sent. Wait a moment before trying again.",
+      "validation": "GREEN-API rejected the request. Check the message and recipient.",
+      "server": "GREEN-API is temporarily unavailable. Try again later.",
+      "invalidResponse": "GREEN-API returned an unexpected response. Try again later.",
+      "unknown": "Something went wrong. Try again."
+    }
+  },
+  "createChat": {
+    "title": "Who would you like to message?",
+    "description": "Enter a Telegram phone number in international format without spaces.",
+    "phoneLabel": "Recipient phone number",
+    "phonePlaceholder": "79991234567",
+    "submit": "Start conversation",
+    "checking": "Checking account",
+    "errors": {
+      "required": "Enter the recipient phone number.",
+      "invalidCharacters": "Use only digits, spaces, parentheses, hyphens, and one leading plus sign.",
+      "invalidLength": "Enter 10-15 digits including the country code.",
+      "notFound": "No Telegram account was found for this number, or the number is hidden by privacy settings.",
+      "rateLimit": "Telegram temporarily limited account checks. Try again later.",
+      "authorization": "GREEN-API no longer accepts this session. Reconnect the instance.",
+      "request": "Could not check the Telegram account. Try again."
+    }
+  },
+  "composer": {
+    "messageLabel": "Message",
+    "placeholder": "Write a message",
+    "send": "Send message",
+    "emptyError": "Write a message before sending.",
+    "lengthError": "Telegram text messages can contain up to 4,096 characters."
+  },
+  "message": {
+    "incomingLabel": "Incoming message",
+    "outgoingLabel": "Outgoing message",
+    "unknownSender": "Contact",
+    "queued": "Queued",
+    "sent": "Sent",
+    "delivered": "Delivered",
+    "read": "Read",
+    "failed": "Failed"
+  }
+}

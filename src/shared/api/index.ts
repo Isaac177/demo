@@ -1,0 +1,25 @@
+export {
+  TelegramApiError,
+  buildTelegramApiUrl,
+  createTelegramApiClient,
+  mapTelegramIncomingText,
+  mapTelegramOutgoingStatus,
+  normalizeTelegramApiError,
+  parseTelegramAccountCheck,
+  parseTelegramInstanceState,
+  parseTelegramNotificationEnvelope,
+  parseTelegramSendResponse,
+} from './telegram-api'
+export type {
+  TelegramApiClient,
+  TelegramAccountCheck,
+  TelegramApiErrorCode,
+  TelegramCredentials,
+  TelegramIncomingTextMessage,
+  TelegramInstanceState,
+  TelegramNotificationEnvelope,
+  TelegramOutgoingStatus,
+  TelegramOutgoingMessageStatus,
+  TelegramReceivedNotification,
+  TelegramSendResponse,
+} from './types'
